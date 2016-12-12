@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06F4876E1DFAB2BF00AC96C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 06F4876D1DFAB2BF00AC96C0 /* main.m */; };
+		06F487711DFAB2BF00AC96C0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 06F487701DFAB2BF00AC96C0 /* AppDelegate.m */; };
+		06F487741DFAB2BF00AC96C0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06F487731DFAB2BF00AC96C0 /* ViewController.m */; };
+		06F487771DFAB2BF00AC96C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06F487751DFAB2BF00AC96C0 /* Main.storyboard */; };
+		06F487791DFAB2BF00AC96C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06F487781DFAB2BF00AC96C0 /* Assets.xcassets */; };
+		06F4877C1DFAB2BF00AC96C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06F4877A1DFAB2BF00AC96C0 /* LaunchScreen.storyboard */; };
+		06F487871DFAB2C000AC96C0 /* UnigyroscopeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 06F487861DFAB2C000AC96C0 /* UnigyroscopeTests.m */; };
+		06F487921DFAB2C000AC96C0 /* UnigyroscopeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 06F487911DFAB2C000AC96C0 /* UnigyroscopeUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		06F487831DFAB2C000AC96C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06F487611DFAB2BF00AC96C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06F487681DFAB2BF00AC96C0;
+			remoteInfo = Unigyroscope;
+		};
+		06F4878E1DFAB2C000AC96C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06F487611DFAB2BF00AC96C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06F487681DFAB2BF00AC96C0;
+			remoteInfo = Unigyroscope;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06F487691DFAB2BF00AC96C0 /* Unigyroscope.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Unigyroscope.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		06F4876D1DFAB2BF00AC96C0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		06F4876F1DFAB2BF00AC96C0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		06F487701DFAB2BF00AC96C0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		06F487721DFAB2BF00AC96C0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		06F487731DFAB2BF00AC96C0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		06F487761DFAB2BF00AC96C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		06F487781DFAB2BF00AC96C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		06F4877B1DFAB2BF00AC96C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		06F4877D1DFAB2BF00AC96C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06F487821DFAB2C000AC96C0 /* UnigyroscopeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnigyroscopeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		06F487861DFAB2C000AC96C0 /* UnigyroscopeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UnigyroscopeTests.m; sourceTree = "<group>"; };
+		06F487881DFAB2C000AC96C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06F4878D1DFAB2C000AC96C0 /* UnigyroscopeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnigyroscopeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		06F487911DFAB2C000AC96C0 /* UnigyroscopeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UnigyroscopeUITests.m; sourceTree = "<group>"; };
+		06F487931DFAB2C000AC96C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		06F487661DFAB2BF00AC96C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06F4877F1DFAB2C000AC96C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06F4878A1DFAB2C000AC96C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06F487601DFAB2BF00AC96C0 = {
+			isa = PBXGroup;
+			children = (
+				06F4876B1DFAB2BF00AC96C0 /* Unigyroscope */,
+				06F487851DFAB2C000AC96C0 /* UnigyroscopeTests */,
+				06F487901DFAB2C000AC96C0 /* UnigyroscopeUITests */,
+				06F4876A1DFAB2BF00AC96C0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		06F4876A1DFAB2BF00AC96C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				06F487691DFAB2BF00AC96C0 /* Unigyroscope.app */,
+				06F487821DFAB2C000AC96C0 /* UnigyroscopeTests.xctest */,
+				06F4878D1DFAB2C000AC96C0 /* UnigyroscopeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		06F4876B1DFAB2BF00AC96C0 /* Unigyroscope */ = {
+			isa = PBXGroup;
+			children = (
+				06F4876F1DFAB2BF00AC96C0 /* AppDelegate.h */,
+				06F487701DFAB2BF00AC96C0 /* AppDelegate.m */,
+				06F487721DFAB2BF00AC96C0 /* ViewController.h */,
+				06F487731DFAB2BF00AC96C0 /* ViewController.m */,
+				06F487751DFAB2BF00AC96C0 /* Main.storyboard */,
+				06F487781DFAB2BF00AC96C0 /* Assets.xcassets */,
+				06F4877A1DFAB2BF00AC96C0 /* LaunchScreen.storyboard */,
+				06F4877D1DFAB2BF00AC96C0 /* Info.plist */,
+				06F4876C1DFAB2BF00AC96C0 /* Supporting Files */,
+			);
+			path = Unigyroscope;
+			sourceTree = "<group>";
+		};
+		06F4876C1DFAB2BF00AC96C0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				06F4876D1DFAB2BF00AC96C0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		06F487851DFAB2C000AC96C0 /* UnigyroscopeTests */ = {
+			isa = PBXGroup;
+			children = (
+				06F487861DFAB2C000AC96C0 /* UnigyroscopeTests.m */,
+				06F487881DFAB2C000AC96C0 /* Info.plist */,
+			);
+			path = UnigyroscopeTests;
+			sourceTree = "<group>";
+		};
+		06F487901DFAB2C000AC96C0 /* UnigyroscopeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				06F487911DFAB2C000AC96C0 /* UnigyroscopeUITests.m */,
+				06F487931DFAB2C000AC96C0 /* Info.plist */,
+			);
+			path = UnigyroscopeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		06F487681DFAB2BF00AC96C0 /* Unigyroscope */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06F487961DFAB2C000AC96C0 /* Build configuration list for PBXNativeTarget "Unigyroscope" */;
+			buildPhases = (
+				06F487651DFAB2BF00AC96C0 /* Sources */,
+				06F487661DFAB2BF00AC96C0 /* Frameworks */,
+				06F487671DFAB2BF00AC96C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Unigyroscope;
+			productName = Unigyroscope;
+			productReference = 06F487691DFAB2BF00AC96C0 /* Unigyroscope.app */;
+			productType = "com.apple.product-type.application";
+		};
+		06F487811DFAB2C000AC96C0 /* UnigyroscopeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06F487991DFAB2C000AC96C0 /* Build configuration list for PBXNativeTarget "UnigyroscopeTests" */;
+			buildPhases = (
+				06F4877E1DFAB2C000AC96C0 /* Sources */,
+				06F4877F1DFAB2C000AC96C0 /* Frameworks */,
+				06F487801DFAB2C000AC96C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				06F487841DFAB2C000AC96C0 /* PBXTargetDependency */,
+			);
+			name = UnigyroscopeTests;
+			productName = UnigyroscopeTests;
+			productReference = 06F487821DFAB2C000AC96C0 /* UnigyroscopeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		06F4878C1DFAB2C000AC96C0 /* UnigyroscopeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06F4879C1DFAB2C000AC96C0 /* Build configuration list for PBXNativeTarget "UnigyroscopeUITests" */;
+			buildPhases = (
+				06F487891DFAB2C000AC96C0 /* Sources */,
+				06F4878A1DFAB2C000AC96C0 /* Frameworks */,
+				06F4878B1DFAB2C000AC96C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				06F4878F1DFAB2C000AC96C0 /* PBXTargetDependency */,
+			);
+			name = UnigyroscopeUITests;
+			productName = UnigyroscopeUITests;
+			productReference = 06F4878D1DFAB2C000AC96C0 /* UnigyroscopeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		06F487611DFAB2BF00AC96C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = IanChen;
+				TargetAttributes = {
+					06F487681DFAB2BF00AC96C0 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 87683U9CHS;
+						ProvisioningStyle = Automatic;
+					};
+					06F487811DFAB2C000AC96C0 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 06F487681DFAB2BF00AC96C0;
+					};
+					06F4878C1DFAB2C000AC96C0 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 06F487681DFAB2BF00AC96C0;
+					};
+				};
+			};
+			buildConfigurationList = 06F487641DFAB2BF00AC96C0 /* Build configuration list for PBXProject "Unigyroscope" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 06F487601DFAB2BF00AC96C0;
+			productRefGroup = 06F4876A1DFAB2BF00AC96C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				06F487681DFAB2BF00AC96C0 /* Unigyroscope */,
+				06F487811DFAB2C000AC96C0 /* UnigyroscopeTests */,
+				06F4878C1DFAB2C000AC96C0 /* UnigyroscopeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		06F487671DFAB2BF00AC96C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06F4877C1DFAB2BF00AC96C0 /* LaunchScreen.storyboard in Resources */,
+				06F487791DFAB2BF00AC96C0 /* Assets.xcassets in Resources */,
+				06F487771DFAB2BF00AC96C0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06F487801DFAB2C000AC96C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06F4878B1DFAB2C000AC96C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06F487651DFAB2BF00AC96C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06F487741DFAB2BF00AC96C0 /* ViewController.m in Sources */,
+				06F487711DFAB2BF00AC96C0 /* AppDelegate.m in Sources */,
+				06F4876E1DFAB2BF00AC96C0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06F4877E1DFAB2C000AC96C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06F487871DFAB2C000AC96C0 /* UnigyroscopeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06F487891DFAB2C000AC96C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06F487921DFAB2C000AC96C0 /* UnigyroscopeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		06F487841DFAB2C000AC96C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 06F487681DFAB2BF00AC96C0 /* Unigyroscope */;
+			targetProxy = 06F487831DFAB2C000AC96C0 /* PBXContainerItemProxy */;
+		};
+		06F4878F1DFAB2C000AC96C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 06F487681DFAB2BF00AC96C0 /* Unigyroscope */;
+			targetProxy = 06F4878E1DFAB2C000AC96C0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		06F487751DFAB2BF00AC96C0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06F487761DFAB2BF00AC96C0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		06F4877A1DFAB2BF00AC96C0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06F4877B1DFAB2BF00AC96C0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		06F487941DFAB2C000AC96C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		06F487951DFAB2C000AC96C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		06F487971DFAB2C000AC96C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 87683U9CHS;
+				INFOPLIST_FILE = Unigyroscope/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.polaroid.customer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		06F487981DFAB2C000AC96C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 87683U9CHS;
+				INFOPLIST_FILE = Unigyroscope/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.polaroid.customer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		06F4879A1DFAB2C000AC96C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = UnigyroscopeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com..UnigyroscopeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Unigyroscope.app/Unigyroscope";
+			};
+			name = Debug;
+		};
+		06F4879B1DFAB2C000AC96C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = UnigyroscopeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com..UnigyroscopeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Unigyroscope.app/Unigyroscope";
+			};
+			name = Release;
+		};
+		06F4879D1DFAB2C000AC96C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = UnigyroscopeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com..UnigyroscopeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Unigyroscope;
+			};
+			name = Debug;
+		};
+		06F4879E1DFAB2C000AC96C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = UnigyroscopeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com..UnigyroscopeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Unigyroscope;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06F487641DFAB2BF00AC96C0 /* Build configuration list for PBXProject "Unigyroscope" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06F487941DFAB2C000AC96C0 /* Debug */,
+				06F487951DFAB2C000AC96C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06F487961DFAB2C000AC96C0 /* Build configuration list for PBXNativeTarget "Unigyroscope" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06F487971DFAB2C000AC96C0 /* Debug */,
+				06F487981DFAB2C000AC96C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		06F487991DFAB2C000AC96C0 /* Build configuration list for PBXNativeTarget "UnigyroscopeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06F4879A1DFAB2C000AC96C0 /* Debug */,
+				06F4879B1DFAB2C000AC96C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		06F4879C1DFAB2C000AC96C0 /* Build configuration list for PBXNativeTarget "UnigyroscopeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06F4879D1DFAB2C000AC96C0 /* Debug */,
+				06F4879E1DFAB2C000AC96C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 06F487611DFAB2BF00AC96C0 /* Project object */;
+}
